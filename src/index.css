@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen bg-gradient-to-t from-blue-800 via-blue-600 to-blue-400 pt-7 pb-4 text-slate-100;
+  }
+
+  #root {
+    @apply flex min-h-screen flex-col items-center;
+  }
+}
