@@ -7,10 +7,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "rome:check": "npx rome check .",
-    "rome:apply": "npx rome check . --apply",
-    "rome:format": "npx rome format .",
-    "rome:write": "npx rome format . --write",
+    "rome:check": "npx rome check src/",
+    "rome:apply": "npx rome check src/ --apply",
+    "rome:format": "npx rome format src/",
+    "rome:write": "npx rome format src/ --write",
     "prettier:tw": "prettier src/ --plugin=prettier-plugin-tailwindcss --write"
   },
   "dependencies": {
