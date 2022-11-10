@@ -10,8 +10,8 @@ function Header() {
 		<header className="mx-auto w-[90%] text-center">
 			<Avatar src={avatar} alt={`${name} with a full orange background`} />
 			<div>
-				<h1 className="font-bold text-3xl mb-4 tracking-wide">{name}</h1>
-				<p className="font-bold text-xl tracking-wide">{headline}</p>
+				<h1 className="mb-4 text-3xl font-bold tracking-wide">{name}</h1>
+				<p className="text-xl font-bold tracking-wide">{headline}</p>
 			</div>
 		</header>
 	);
