@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -12,7 +15,7 @@ jobs:
       matrix:
         node-version: [16.x, 18.x]
     steps:
-      - uses: action/checkout@v2
+      - uses: actions/checkout@v2
       - name: use node ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
