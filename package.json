@@ -11,7 +11,7 @@
     "rome:apply": "npx rome check . --apply",
     "rome:format": "npx rome format .",
     "rome:write": "npx rome format . --write",
-    "prettier:tw": "prettier src/ --plugin=prettier-plugin-tailwindcss --write "
+    "prettier:tw": "prettier src/ --plugin=prettier-plugin-tailwindcss --write"
   },
   "dependencies": {
     "react": "^18.2.0",
