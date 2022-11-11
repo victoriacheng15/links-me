@@ -26,19 +26,24 @@ export const linksList: List[] = [
 		category: "social",
 	},
 	{
-		title: "Portfolio site",
+		title: "👋 Portfolio site 👋",
 		address: "https://victoriacheng15.vercel.app",
 	},
 	{
-		title: "Polywork",
+		title: "🎊 Polywork 🎊",
 		address: "https://www.polywork.com/victoriacheng15",
 	},
 	{
-		title: "Showwcase",
+		title: "🎒 Showwcase 🎒",
 		address: "https://victoriacheng15.showwcase.com",
 	},
 	{
-		title: "Hashnode",
+		title: "📝 Hashnode 📝",
 		address: "https://victoriacheng15.hashnode.dev",
+	},
+	{
+		title: "Want to learning Tailwind CSS? Check out my blog",
+		address:
+			"https://victoriacheng15.vercel.app/docs/blogs/tailwindcss-beginner-edition",
 	},
 ];
