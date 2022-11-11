@@ -1,4 +1,5 @@
 import React from "react";
+import LinkElement from "./LinkElement";
 import { linksList } from "../data/links";
 
 function Socials() {
@@ -6,18 +7,18 @@ function Socials() {
 		title.toLowerCase().split(" ").join("");
 
 	return (
-		<ul className="flex justify-center gap-6">
-			{linksList.map(({ category, title, address }) => {
-				if (category === "social") {
-					return (
-						<li key={title} className="social">
-							<a href={address} target="_blank" rel="noreferrer">
+		<ul className="flex justify-center gap-8">
+			{linksList
+				.filter(({ category }) => category)
+				.map(({ title, address }) => (
+					<li key={title}>
+						<LinkElement address={address}>
+							<div className="w-[45px] rounded-lg bg-blue-200 p-2 backdrop-blur-3xl backdrop-filter duration-300 ease-in-out hover:scale-125">
 								<img src={`./${imgFormatter(title)}.svg`} alt={title} />
-							</a>
-						</li>
-					);
-				}
-			})}
+							</div>
+						</LinkElement>
+					</li>
+				))}
 		</ul>
 	);
 }
