@@ -7,9 +7,13 @@ interface AvatarProps {
 
 function Avatar({ src, alt }: AvatarProps) {
 	return (
-		<div className="mx-auto w-36 rounded-full border-2 border-blue-900">
-			<img className="w-full" src={src} alt={alt} />
-		</div>
+		<>
+			<img
+				className="mx-auto aspect-square w-36 rounded-full border-2 border-blue-900"
+				src={src}
+				alt={alt}
+			/>
+		</>
 	);
 }
 
