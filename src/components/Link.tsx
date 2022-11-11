@@ -9,14 +9,13 @@ interface LinkProps {
 
 function Link({ title, address }: LinkProps) {
 	return (
-		<LinkElement address={address}>
-			<div
-				className="grid h-full w-full place-items-center rounded-2xl border-2 border-blue-300 
-			bg-blue-600 bg-opacity-40 backdrop-blur-lg backdrop-filter duration-300 ease-in-out hover:scale-105 hover:bg-opacity-80"
-			>
-				<span className="p-4 text-center text-xl tracking-wide">{title}</span>
-			</div>
-		</LinkElement>
+		<>
+			<LinkElement address={address}>
+				<div className="backdrop grid place-items-center rounded-lg border-2 bg-blue-600 bg-opacity-40 p-4 duration-300 ease-in-out hover:rotate-1 hover:scale-105">
+					<span className="text-2xl font-semibold tracking-wide">{title}</span>
+				</div>
+			</LinkElement>
+		</>
 	);
 }
 
