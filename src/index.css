@@ -11,3 +11,9 @@
     @apply flex min-h-screen flex-col items-center;
   }
 }
+
+@layer components {
+  .backdrop {
+    @apply backdrop-blur-lg backdrop-filter;
+  }
+}
