@@ -11,11 +11,16 @@ function Socials() {
 			{linksList
 				.filter(({ category }) => category)
 				.map(({ title, address }) => (
-					<li key={title}>
+					<li
+						key={title}
+						className="backdrop rounded-lg bg-blue-200 duration-300 ease-in-out hover:scale-125"
+					>
 						<LinkElement address={address}>
-							<div className="w-[45px] rounded-lg bg-blue-200 p-2 backdrop-blur-3xl backdrop-filter duration-300 ease-in-out hover:scale-125">
-								<img src={`./${imgFormatter(title)}.svg`} alt={title} />
-							</div>
+							<img
+								className="aspect-square w-14 p-2"
+								src={`./socials/${imgFormatter(title)}.svg`}
+								alt={title}
+							/>
 						</LinkElement>
 					</li>
 				))}
