@@ -12,7 +12,7 @@ function Link({ title, address }: LinkProps) {
 		<>
 			<LinkElement address={address}>
 				<div className="backdrop grid place-items-center rounded-lg border-2 bg-blue-600 bg-opacity-40 p-4 duration-300 ease-in-out hover:rotate-1 hover:scale-105">
-					<span className="text-2xl font-semibold tracking-wide">{title}</span>
+					<span className="text-xl font-semibold tracking-wide">{title}</span>
 				</div>
 			</LinkElement>
 		</>
