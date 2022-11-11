@@ -4,7 +4,7 @@ interface List {
 	category?: string;
 }
 
-export const linkList: List[] = [
+export const linksList: List[] = [
 	{
 		title: "GitHub",
 		address: "https://github.com/victoriacheng15",
@@ -16,8 +16,13 @@ export const linkList: List[] = [
 		category: "social",
 	},
 	{
-		title: "Twiiter",
+		title: "Twitter",
 		address: "https://twitter.com/viktoriacheng15",
+		category: "social",
+	},
+	{
+		title: "Buy me a coffee",
+		address: "https://www.buymeacoffee.com/victoriacheng15",
 		category: "social",
 	},
 	{

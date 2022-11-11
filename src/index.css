@@ -4,10 +4,16 @@
 
 @layer base {
   body {
-    @apply min-h-screen bg-gradient-to-t from-blue-800 via-blue-600 to-blue-400 pt-7 pb-4 text-slate-100;
+    @apply min-h-screen bg-[url("/background.svg")] bg-cover pt-7 pb-4 text-slate-100;
   }
 
   #root {
     @apply flex min-h-screen flex-col items-center;
+  }
+}
+
+@layer components {
+  .social {
+    @apply aspect-square w-[50px] rounded-lg bg-slate-100 bg-opacity-50 p-2 backdrop-blur-lg duration-300 ease-in-out hover:scale-110 hover:bg-opacity-90;
   }
 }
