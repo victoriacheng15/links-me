@@ -12,13 +12,12 @@ rome_apply() {
 
 rome_write() {
   npm run prettier:tw
-  sleep 1
+  sleep 2
+  echo "########### run rome formatter"
   npm run rome:write
 }
 
 action_array=("update main" "rome check apply" "rome format write")
-
-echo ${action_array}
 
 PS3="Select the action: "
 select action in "${action_array[@]}"
