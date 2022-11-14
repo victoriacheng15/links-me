@@ -21,9 +21,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "pnpm"
-      - run: |
+      - name: install dependencies and run build
+        run: |
           pnpm install --frozen-lockfile
-          pnpm build --if-present
+          pnpm build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
