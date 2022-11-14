@@ -2,6 +2,8 @@
 
 This is a website that contains all my links, such as Portfolio site, LinkedIn, and more in one place.
 
+[![pages-build-deployment](https://github.com/victoriacheng15/links-me/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/victoriacheng15/links-me/actions/workflows/pages/pages-build-deployment)
+
 ## Screenshot
 
 ![landing page screenshot](./landing-page.webp)
