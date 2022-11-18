@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "./Link";
-import { linksList } from "../data/links";
+import { linksList } from "../../data/links";
 
 function Main() {
 	return (
