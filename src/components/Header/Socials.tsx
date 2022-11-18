@@ -1,6 +1,6 @@
 import React from "react";
-import LinkElement from "./LinkElement";
-import { linksList } from "../data/links";
+import LinkElement from "../Main/LinkElement";
+import { linksList } from "../../data/links";
 
 function Socials() {
 	const imgFormatter = (title: string) =>

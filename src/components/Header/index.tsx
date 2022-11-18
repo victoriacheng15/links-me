@@ -1,7 +1,7 @@
 import React from "react";
 import Avatar from "./Avatar";
 import Socials from "./Socials";
-import avatar from "../assets/avatar.webp";
+import avatar from "../../assets/avatar.webp";
 
 function Header() {
 	const name = "Victoria Cheng";
