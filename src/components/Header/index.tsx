@@ -5,7 +5,8 @@ import avatar from "../../assets/avatar.webp";
 
 function Header() {
 	const name = "Victoria Cheng";
-	const headline = "Software Developer | TypeScript | JavaScript | React | Express | MongoDB";
+	const headline =
+		"Software Developer | TypeScript | JavaScript | React | Express | MongoDB";
 
 	return (
 		<header className="mx-auto w-11/12 max-w-2xl">
