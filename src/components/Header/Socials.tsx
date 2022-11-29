@@ -17,7 +17,7 @@ function Socials() {
 					>
 						<LinkElement address={address}>
 							<img
-								className="aspect-square w-14 p-2"
+								className="aspect-square w-12 p-1"
 								src={`./socials/${imgFormatter(title)}.svg`}
 								alt={title}
 							/>
