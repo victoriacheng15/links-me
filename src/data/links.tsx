@@ -44,6 +44,6 @@ export const linksList: List[] = [
 	{
 		title: "Want to learning Tailwind CSS? Check out my blog",
 		address:
-			"https://victoriacheng15.vercel.app/docs/archived-blog/tailwindcss-beginner-edition",
+			"https://victoriacheng15.vercel.app/blog/tailwind-css-beginner-edition",
 	},
 ];
